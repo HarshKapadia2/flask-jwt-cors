@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<script defer src="static/signup.js"></script>
+
+		<title>JWT Signup</title>
+	</head>
+
+	<body>
+		<h1>Flask-JWT-Extended Package Test</h1>
+		<h2>Signup</h2>
+
+		<div id="error"></div>
+
+		<form>
+			<label for="name">Name:</label>
+			<input type="text" name="name" id="name" required />
+			<br /><br />
+
+			<label for="username">Username:</label>
+			<input type="text" name="username" id="username" required />
+			<br /><br />
+
+			<label for="password">Password:</label>
+			<input type="password" name="password" id="password" required />
+			<br /><br />
+
+			<input type="submit" value="Sign Up" />
+			<br /><br />
+		</form>
+
+		<a href="/">Home</a>
+		<a href="/login.html">Login</a>
+		<a href="/protected.html">Protected Route</a>
+	</body>
+</html>
