@@ -10,7 +10,7 @@ bleach==3.1.0
 CacheControl==0.12.6
 cachetools==4.0.0
 camelcase==0.2
-certifi==2019.11.28
+certifi==2022.12.7
 chardet==3.0.4
 click==8.0.3
 colorama==0.4.4
